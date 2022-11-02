@@ -17,9 +17,11 @@ public class Ejemplo08 {
         boolean b = false;
         boolean c = a || b;
         boolean d = a && b;
+        System.out.println("------------------------------------------");
         System.out.printf("El resultados de la variable 'c' es: %s\n", c);
+        System.out.println("------------------------------------------");
         System.out.printf("El resultados de la variable 'd' es: %s\n", d);
-        
-              
+        System.out.println("------------------------------------------");
+            
     }
 }
